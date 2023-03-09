@@ -62,8 +62,8 @@ const UserTable = () => {
 	};
 
 
-	const createHe = () => {
-		faker.locale = "he";
+	const createAr = () => {
+		faker.locale = "ar";
 		create();
 }
 	const createDe = () => {
@@ -91,8 +91,8 @@ const UserTable = () => {
 				<ButtonGroup
 					aria-label="Basic example"
 					className="mb-3 width100 adminBtn">
-					<Button variant="info" onClick={createHe}>
-						Hebrew
+					<Button variant="info" onClick={createAr}>
+						Arabic
 					</Button>
 					<Button variant="primary" onClick={createDe}>
 						Deutch
